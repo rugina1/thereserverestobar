@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | THE RESERVE BAR-RESTO</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .gallery-container {
+      padding: 40px 20px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>THE RESERVE BAR-RESTO</h1>
+      <p class="tagline">Where Blues Meets Flavor 🎷</p>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container gallery-container">
+    <h2 style="color: #ffd166;">Gallery</h2>
+    <p>Take a glimpse into our vibe — the flavor, the feel, the bluesy magic.</p>
+
+    <div class="gallery-grid">
+      <img src="images/grill1.jpg" alt="Grilled food at The Reserve">
+      <img src="images/interior1.jpg" alt="Cozy interior of the bar">
+      <img src="images/drinks1.jpg" alt="Refreshing cocktails">
+      <img src="images/music1.jpg" alt="Live blues music night">
+      <img src="images/dish2.jpg" alt="Signature dish">
+      <img src="images/patio1.jpg" alt="Outdoor seating ambiance">
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 THE RESERVE BAR-RESTO. All rights reserved.</p>
+      <p>KK 3, Kabuga | 0782115092 / 0787905363 | thereserverestobar@gmail.com</p>
+    </div>
+  </footer>
+</body>
+</html>
